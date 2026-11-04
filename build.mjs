@@ -10,7 +10,7 @@ if (!PW) { console.error('鍵を引数に'); process.exit(1); }
 const ROOT = dirname(fileURLToPath(import.meta.url));
 const SITE = 'https://mm738966m-boop.github.io/otasuke-share/';
 const PAGES = [
-  { src: 'src/m1104.html', out: 'm1104/index.html', title: '第1回 お金の回し方', ogTitle: '特定創業支援 第1回 お金の回し方', ogDesc: '11/4のご相談の資料と、お伝えしたことのまとめ（決算月・役員報酬・資金繰り・売上目標）', og: 'og_m1104.png' },
+  { src: 'src/m1104.html', out: 'm1104/index.html', title: '第1回 お金の回し方', ogTitle: 'せどりの会社を、お金で困らずに回していくために', ogDesc: '11/4のご相談でお話ししたことのまとめ（決算月・役員報酬・税金・資金繰り・売上目標）', og: 'og_m1104.png' },
 ];
 
 const b64 = u8 => Buffer.from(u8).toString('base64');
